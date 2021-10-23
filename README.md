@@ -44,3 +44,8 @@ Escolha a mais recente
 ```Define value for property 'version' 1.0-SNAPSHOT: : ```
 ```Define value for property 'package' fit: : br.com.fit```
 ``` Y: : ```
+
+## Testando a aplicacao
+
+Apos criar o projeto rode o comando de teste do maven
+```mvn test -f "hello/pom.xml"```
