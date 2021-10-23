@@ -7,6 +7,7 @@
   
     # ### Install SDK
   - name: Update apt cache
+    become: yes
     apt: update_cache=yes cache_valid_time=3600
 
   - name: Upgrade all apt packages
@@ -44,19 +45,5 @@
   - name: Install sdkman
     ansible.builtin.shell:
       cmd: source "$HOME/.sdkman/bin/sdkman-init.sh"
-    args:
-      executable: /bin/bash
-
-
-  - name: download candidates
-    uri:
-      url: 'https://api.sdkman.io/2/candidates/all'
-      return_content: yes
-    register: $HOME/.sdkman/candidates
-    
-  - name: Check sdkman
-    become: no
-    ansible.builtin.shell:
-      cmd: "/vagrant/sdkman version"
     args:
       executable: /bin/bash
