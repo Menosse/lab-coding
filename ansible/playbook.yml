@@ -42,8 +42,14 @@
   - name: CAT sdkman
     ansible.builtin.shell: cat "$HOME/.sdkman/bin/sdkman-init.sh"
   
-  - name: Install sdkman
+  - name: Add SKD to source, and Install java and maven
     ansible.builtin.shell:
-      cmd: source "$HOME/.sdkman/bin/sdkman-init.sh"
+      cmd: source "$HOME/.sdkman/bin/sdkman-init.sh" && sdk install java 17-open && sdk install maven
     args:
       executable: /bin/bash
+  
+  - name: Create projects dir
+    ansible.builtin.file:
+      path: /vagrant/projects
+      state: directory
+      mode: '0755'

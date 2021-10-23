@@ -9,18 +9,9 @@ lab coding java
 
 ``` vagrant ssh```
 
-
-# Instalar o java e maven
-
-```sdk install java 17-open```
-
-```sdk install maven```
-
 # Iniciar o projeto da aula 1
 
-```cd /vagrant```
-
-```mkdir Projects && cd Projects```
+```cd /vagrant/projects```
 
 ```mkdir fit && cd fit```
 
