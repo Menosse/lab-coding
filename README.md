@@ -18,7 +18,7 @@ lab coding java
 
 # Iniciar o projeto da aula 1
 
-```cd ~/vagrant```
+```cd /vagrant```
 ```mkdir Projects && cd Projects```
 ```mkdir fit && cd fit```
 ```mvn archetype:generate```
