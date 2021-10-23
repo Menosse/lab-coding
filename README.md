@@ -12,6 +12,6 @@ lab coding java
 
 # Instalar o java e maven
 
-```sdk install java```
+```sdk install java 17-open```
 
 ```sdk install maven```
