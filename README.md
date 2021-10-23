@@ -39,15 +39,20 @@ Versao do archetype a ser utilizada? Escolha a mais recente
 ```8```
 
 Em seguida defina as propriedades a seguir
-```Define value for property 'groupId': ``` ```fit```
+```Define value for property 'groupId': ```
+```fit```
 
-```Define value for property 'artifactId': ``` ```hello```
+```Define value for property 'artifactId': ```
+```hello```
 
-```Define value for property 'version' 1.0-SNAPSHOT: : ``` ``` ```
+```Define value for property 'version' 1.0-SNAPSHOT: : ```
+```⏎```
 
-```Define value for property 'package' fit: : ``` ```br.com.fit```
+```Define value for property 'package' fit: : ```
+```br.com.fit```
 
-``` Y: : ``` ``` ```
+``` Y: : ```
+```⏎```
 
 ## Testando a aplicacao
 
