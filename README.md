@@ -1,2 +1,2 @@
-# lab-coding
+# labcoding
 lab coding java
