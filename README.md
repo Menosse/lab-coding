@@ -27,18 +27,22 @@ lab coding java
 ```mvn archetype:generate```
 
 O maven ira perguntar qual tipo e archetype deve ser criado, digite "quickstart"
+
 ```Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 1828:```
 ```quickstart```
 
 Dentre os archetypes "quickstart" escolher "112" para a aula 1
+
 ```Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 112:```
 ```112```
 
 Versao do archetype a ser utilizada? Escolha a mais recente
+
 ```Choose org.apache.maven.archetypes:maven-archetype-quickstart version:```
 ```8```
 
 Em seguida defina as propriedades a seguir
+
 ```Define value for property 'groupId':```
 ```fit```
 
@@ -57,4 +61,5 @@ Em seguida defina as propriedades a seguir
 ## Testando a aplicacao
 
 Apos criar o projeto rode o comando de teste do maven
+
 ```mvn test -f "hello/pom.xml"```
