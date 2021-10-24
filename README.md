@@ -9,6 +9,11 @@ lab coding java
 
 ``` vagrant ssh```
 
+# Configure a VM no VS code
+
+Para realizar esta configuracao faca o passo a passo no link a segui: 
+https://medium.com/@lizrice/ssh-to-vagrant-from-vscode-5b2c5996bc0e
+
 # Iniciar o projeto da aula 1
 
 ```cd /vagrant/projects```
