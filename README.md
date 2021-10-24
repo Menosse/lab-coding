@@ -14,6 +14,8 @@ lab coding java
 Para realizar esta configuracao faca o passo a passo no link a segui: 
 https://medium.com/@lizrice/ssh-to-vagrant-from-vscode-5b2c5996bc0e
 
+Ao se conectar na maquina vagrant abra a pasta `/vagrant` e nao `/home/vagrant` como sugerido pelo vs code
+
 # Iniciar o projeto da aula 1
 
 ```cd /vagrant/projects```
