@@ -1,5 +1,6 @@
 .vagrant
 .DS_store
 /Projects/fit/hello/target
+/Projects/fit/hello/.*
 sdkman
 /.ssh
