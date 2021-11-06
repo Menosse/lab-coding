@@ -2,5 +2,9 @@
 .DS_store
 /Projects/fit/hello/target
 /Projects/fit/hello/.*
+/Projects/fit/desafio-imposto/target
+/Projects/fit/desafio-imposto/.*
+/Projects/fit/challenge-a1-Menosse/
+/Projects/fit/desafio-imposto-de-renda-grupo6/
 sdkman
 /.ssh
