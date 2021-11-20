@@ -10,6 +10,6 @@ public class App
     {
         System.out.println( "Hello World!" );
         String resultado = ImcCalculator.calculate(88, 1.77);
-        System.out.println(resultado)
+        System.out.println(resultado);
     }
 }
