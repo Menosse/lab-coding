@@ -1,6 +1,6 @@
 #!/bin/bash
-cp -f java-app/target/*.jar jenkins/build/
-# cp -f Projects/fit/desafio-imc/target/*.jar jenkins/build/
+# cp -f java-app/target/*.jar jenkins/build/
+cp -f Projects/fit/desafio-imc/target/*.jar jenkins/build/
 echo "****************************"
 echo "** Building Docker Image ***"
 echo "****************************"
