@@ -1,0 +1,7 @@
+version: '3'
+services:
+   app:
+    image: "famcsn2/maven-project-imc:$BUILD_TAG"
+    build:
+      context: .
+      dockerfile: Dockerfile
