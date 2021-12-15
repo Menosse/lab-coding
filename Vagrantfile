@@ -13,8 +13,8 @@ Vagrant.configure("2") do |config|
       # Configurações de Tamanho da VM
       labcoding.vm.provider "virtualbox" do |v|
         v.name = "labcoding"
-        v.memory = 4096
-        v.cpus = 4
+        v.memory = 8192
+        v.cpus = 8
       end
   
       # Instala o Ansible e faz as configurações da VM
